@@ -1,0 +1,2 @@
+# fundamentos_programacion_isic_2026-2
+REPOSITORIO DE LA CLASE FUNDAMENTOS DE PROGRAMACION 
