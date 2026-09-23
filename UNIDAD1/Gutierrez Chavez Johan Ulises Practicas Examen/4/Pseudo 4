@@ -1,0 +1,14 @@
+// Dentro del primer rectangulo de asignacion en DFD:
+PI_VAL <- 3.1415
+
+// En el cono de salida pides los datos y en el paralelogramo los lees.
+Mostrar 'Ingrese radio y longitud'
+Leer radio, longitud
+
+// Dentro del segundo rectangulo de asignacion en DFD:
+arreglo(1) <- PI_VAL * (radio * radio)
+arreglo(2) <- 2 * PI_VAL * radio * longitud
+arreglo(3) <- arreglo(1) * longitud
+
+// En el ultimo cono de Salida en DFD:
+Mostrar 'Area Base: ', arreglo(1), ' Area Lateral: ', arreglo(2), ' Volumen: ', arreglo(3)

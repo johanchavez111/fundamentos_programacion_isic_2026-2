@@ -1,0 +1,32 @@
+// 1. Iniciar contadores (Cuadro de Asignación)
+arr(1) <- 0
+arr(2) <- 0
+arr(3) <- 0
+repetir <- 1
+
+// 2. Ciclo Mientras (While)
+Mientras repetir = 1 Hacer
+
+    // Pedir datos
+    Mostrar 'Puerto:'
+    Leer puerto
+
+    // 3. Evaluar y sumar (Rombos y Asignación)
+    Si puerto < 1024 Entonces
+        arr(1) <- arr(1) + 1
+    Sino
+        Si puerto < 49151 Entonces
+            arr(2) <- arr(2) + 1
+        Sino
+            arr(3) <- arr(3) + 1
+        Fin Si
+    Fin Si
+
+    // 4. Repetir ciclo?
+    Mostrar '¿Otro? 1=Si, 0=No'
+    Leer repetir
+
+Fin Mientras
+
+// 5. Imprimir reporte (Cono de Salida)
+Mostrar 'Alta: ', arr(1), ' Media: ', arr(2), ' Baja: ', arr(3)

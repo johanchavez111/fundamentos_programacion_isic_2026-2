@@ -1,0 +1,9 @@
+En el cono de salida pides los datos y en el paralelogramo los lees.
+Mostrar 'Ingrese horas de desarrollo'
+Leer horasDesarrollo
+Mostrar 'Ingrese costo por hora'
+Leer costoHora
+Mostrar 'Ingrese presupuesto del cliente'
+Leer presupuestoCliente
+Mostrar 'Ingrese plazo en dias'
+Leer plazoClienteDias

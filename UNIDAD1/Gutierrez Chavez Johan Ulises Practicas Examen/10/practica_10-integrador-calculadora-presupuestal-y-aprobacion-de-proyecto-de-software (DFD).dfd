@@ -1,0 +1,109 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+32
+'Ingrese horas de desarrollo: ' 
+5
+1
+16
+horasDesarrollo 
+4
+1
+27
+'Ingrese costo por hora: ' 
+5
+1
+10
+costoHora 
+4
+1
+36
+'Ingrese presupuesto del cliente: ' 
+5
+1
+18
+presupuestoCliente
+4
+1
+37
+'Ingrese plazo en dias del cliente: '
+5
+1
+17
+plazoClienteDias 
+6
+3
+14
+jornadaDiaria 
+1
+8
+11
+diasSemana 
+1
+5
+10
+arreglo(1)
+28
+horasDesarrollo * costoHora 
+6
+3
+10
+arreglo(2)
+18
+arreglo(1) * 0.12 
+10
+arreglo(3)
+17
+arreglo(1) * 0.05
+10
+arreglo(4)
+36
+arreglo(1) + arreglo(2) - arreglo(3)
+6
+2
+10
+arreglo(5)
+17
+arreglo(4) * 0.16
+10
+arreglo(6)
+23
+arreglo(4) + arreglo(5)
+6
+3
+22
+diasTotalesRequeridos 
+39
+TRUNC(horasDesarrollo / jornadaDiaria) 
+18
+horasSobrantesDia 
+34
+horasDesarrollo mod jornadaDiaria 
+17
+semanasLaborales 
+43
+TRUNC (diasTotalesRequeridos / diasSemana) 
+6
+3
+17
+presupuestoViable
+32
+arreglo(6) <= presupuestoCliente
+11
+plazoViable
+41
+diasTotalesRequeridos <= plazoClienteDias
+16
+ProyectoAprobado
+33
+presupuestoViable AND plazoViable
+4
+1
+152
+'Subtotal: $', arreglo(1), ' Gastos: $', arreglo(2), ' Descuento: $', arreglo(3), ' Neto: $', arreglo(4), ' IVA: $', arreglo(5), ' Total: $', arreglo(6)
+1

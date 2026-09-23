@@ -1,0 +1,39 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+8
+PI_VALOR
+10
+3.14159265
+4
+1
+28
+'Ingrese radio y longitud:' 
+5
+1
+15
+radio, longitud
+6
+3
+10
+arreglo(1)
+26
+PI_VALOR * (radio * radio)
+10
+arreglo(2)
+31
+2 * PI_VALOR * radio * longitud
+10
+arreglo(3)
+21
+arreglo(1) * longitud
+4
+1
+82
+'Area Base: ', arreglo(1), ' Area Lateral: ', arreglo(2), ' Volumen: ', arreglo(3)
+1
